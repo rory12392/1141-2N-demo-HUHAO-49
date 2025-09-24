@@ -23,9 +23,9 @@
 ![](w02-p2.png)
 
 ```
-
+f82449b rory12392 Wed Sep 24 20:49:48 2025 +0800  W02-P2: refine code in W01-P1
 ```
 
-### W01-logs: git logs of W01
+### W02-logs: git logs of W02
 
 ![](w02-logs.png)
