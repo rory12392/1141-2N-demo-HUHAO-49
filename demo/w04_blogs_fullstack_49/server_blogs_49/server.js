@@ -1,0 +1,14 @@
+import express from 'express';
+
+const app = express();
+
+import db from './utils/database.js';
+
+app.use('/', (req, res, next) => {
+  res.send('hu hao, 213417149');
+});
+
+const port = process.env.PORT || 5000;
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
+});
