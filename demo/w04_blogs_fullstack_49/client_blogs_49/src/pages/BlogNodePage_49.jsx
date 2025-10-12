@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-// import blogData_49 from '../../assets/data/blogData.json';
-import Blog_49 from '../../components/Blog_49';
+// import blogData_49 from '../assets/data/blogData.json';
+import Blog_49 from '../components/Blog_49';
 
 const api_url = 'http://localhost:5000/api/blog_49';
 
