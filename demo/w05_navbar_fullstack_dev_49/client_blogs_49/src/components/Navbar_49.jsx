@@ -19,7 +19,7 @@ const Navbar_49 = () => {
           <div className='header-right'>
             <ul className='main-menu'>
               <li className='menu-item'>
-                <Link to='#' className='active'>
+                <Link to='/' className='active'>
                   Home
                 </Link>
               </li>
@@ -114,6 +114,9 @@ const Navbar_49 = () => {
                 <Link to='#'>Demo</Link>
                 <div className='sub-menu-wrapper slideInUp'>
                   <ul className='sub-menu'>
+                    <li className='menu-item'>
+                      <Link to='/booklist_49'>w02_booklist_49</Link>
+                    </li>
                     <li className='menu-item'>
                       <Link to='/static_49'>W3-BlogStatic_49</Link>
                     </li>
