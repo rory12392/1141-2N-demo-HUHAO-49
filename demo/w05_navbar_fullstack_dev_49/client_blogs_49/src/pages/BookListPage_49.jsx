@@ -21,5 +21,4 @@ const BookListPage_49 = () => {
     </Wrapper>
   );
 };
-
 export default BookListPage_49;
