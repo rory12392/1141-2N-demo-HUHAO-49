@@ -1,4 +1,4 @@
-import Wrapper from '../assets/wrappers/Navbar_49';
+import Wrapper from '../assets/wrappers/BookList_49';
 import books_data from '../assets/data/booklist_data2';
 
 console.log('books_data', books_data);
