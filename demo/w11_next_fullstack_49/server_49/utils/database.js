@@ -7,8 +7,8 @@ if (process.env.DATABASE === 'LOCAL') {
     host: 'localhost',
     port: '5432',
     user: 'postgres',
-    password: '0000',
-    database: 'wp1_demo_xx',
+    password: 'rr1119',
+    database: 'wp1_midterm_49',
   });
   console.log('Connecting local database', pool.options.database);
 } else if (process.env.DATABASE === 'SUPABASE') {

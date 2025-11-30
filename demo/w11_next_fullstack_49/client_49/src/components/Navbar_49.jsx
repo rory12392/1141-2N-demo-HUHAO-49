@@ -1,8 +1,9 @@
 import React from 'react';
-import Wrapper from '../assets/wrappers/Navbar_xx';
-import { Link } from 'react-router-dom';
+import Wrapper from '../assets/wrappers/Navbar_49';
+// import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
-const Navbar_xx = () => {
+const Navbar_49 = () => {
   return (
     <Wrapper>
       <header className='header'>
@@ -19,31 +20,31 @@ const Navbar_xx = () => {
           <div className='header-right'>
             <ul className='main-menu'>
               <li className='menu-item'>
-                <Link to='/' className='active'>
+                <Link href='/' className='active'>
                   Home
                 </Link>
               </li>
 
               {/* <li className='menu-item mega-menu'>
-                <Link to='#'>Mega menu +</Link>
+                <Link href='#'>Mega menu +</Link>
                 <div className='mega-menu-wrapper slideInUp'>
                   <div className='mega-menu-col'>
                     <h5>Menu block 1</h5>
                     <ul className='mega-sub-menu'>
                       <li>
-                        <Link to='#'>Menu block item 1</Link>
+                        <Link href='#'>Menu block item 1</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 2</Link>
+                        <Link href='#'>Menu block item 2</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 3</Link>
+                        <Link href='#'>Menu block item 3</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 4</Link>
+                        <Link href='#'>Menu block item 4</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 5</Link>
+                        <Link href='#'>Menu block item 5</Link>
                       </li>
                     </ul>
                   </div>
@@ -51,19 +52,19 @@ const Navbar_xx = () => {
                     <h5>Menu block 2</h5>
                     <ul className='mega-sub-menu'>
                       <li>
-                        <Link to='#'>Menu block item 1</Link>
+                        <Link href='#'>Menu block item 1</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 2</Link>
+                        <Link href='#'>Menu block item 2</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 3</Link>
+                        <Link href='#'>Menu block item 3</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 4</Link>
+                        <Link href='#'>Menu block item 4</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 5</Link>
+                        <Link href='#'>Menu block item 5</Link>
                       </li>
                     </ul>
                   </div>
@@ -71,19 +72,19 @@ const Navbar_xx = () => {
                     <h5>Menu block 3</h5>
                     <ul className='mega-sub-menu'>
                       <li>
-                        <Link to='#'>Menu block item 1</Link>
+                        <Link href='#'>Menu block item 1</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 2</Link>
+                        <Link href='#'>Menu block item 2</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 3</Link>
+                        <Link href='#'>Menu block item 3</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 4</Link>
+                        <Link href='#'>Menu block item 4</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 5</Link>
+                        <Link href='#'>Menu block item 5</Link>
                       </li>
                     </ul>
                   </div>
@@ -91,19 +92,19 @@ const Navbar_xx = () => {
                     <h5>Menu block 4</h5>
                     <ul className='mega-sub-menu'>
                       <li>
-                        <Link to='#'>Menu block item 1</Link>
+                        <Link href='#'>Menu block item 1</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 2</Link>
+                        <Link href='#'>Menu block item 2</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 3</Link>
+                        <Link href='#'>Menu block item 3</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 4</Link>
+                        <Link href='#'>Menu block item 4</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 5</Link>
+                        <Link href='#'>Menu block item 5</Link>
                       </li>
                     </ul>
                   </div>
@@ -111,73 +112,77 @@ const Navbar_xx = () => {
               </li> */}
 
               <li className='menu-item dropdown'>
-                <Link to='#'>Demo +</Link>
+                <Link href='#'>Demo +</Link>
                 <div className='sub-menu-wrapper slideInUp'>
                   <ul className='sub-menu'>
                     <li className='menu-item'>
-                      <Link to='/booklist_xx'>W2-BookList_xx</Link>
+                      <Link href='/booklist_49'>W2-BookList_49</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link to='/static_xx'>W3-BlogStatic_xx</Link>
+                      <Link href='/static_49'>W3-BlogStatic_49</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link to='/localjson_xx'>W3-BlogLocalJson_xx</Link>
+                      <Link href='/localjson_49'>W3-BlogLocalJson_49</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link to='/node_xx'>W4-BlogNode_xx</Link>
+                      <Link href='/node_49'>W4-BlogNode_49</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link to='#'>W5-BlogSupa_xx</Link>
+                      <Link href='#'>W5-BlogSupa_49</Link>
                     </li>
                   </ul>
                 </div>
               </li>
 
               <li className='menu-item dropdown'>
-                <Link to='#'>Tutorials +</Link>
+                <Link href='#'>Tuhrefrials +</Link>
                 <div className='sub-menu-wrapper slideInUp'>
                   <ul className='sub-menu'>
                     <li className='menu-item'>
-                      <Link to='/tutorials/t11_xx'>
-                        T11_ErrorExamplePage_xx
+                      <Link href='/tuhrefrials/t11_49'>
+                        T11_ErrorExamplePage_49
                       </Link>
                     </li>
                     <li className='menu-item'>
-                      <Link to='/tutorials/t12_xx'>
-                        T12_UseStateBasicsPage_xx
+                      <Link href='/tuhrefrials/t12_49'>
+                        T12_UseStateBasicsPage_49
                       </Link>
                     </li>
                   </ul>
                 </div>
               </li>
+
               <li className='menu-item dropdown'>
-                <Link to='#'>Quiz1 +</Link>
+                <Link href='#'>Midterm +</Link>
                 <div className='sub-menu-wrapper slideInUp'>
                   <ul className='sub-menu'>
                     <li className='menu-item'>
-                      <Link to='/quiz1/static_xx'>TourStaticPage_xx</Link>
+                      <Link href='/exams/midterm/p1_49'>P1_StaticPage_49</Link>
                     </li>
+
                     <li className='menu-item'>
-                      <Link to='/quiz1/static2_xx'>TourStaticPage2_xx</Link>
+                      <Link href='/exams/midterm/p2_49'>P2_StaticPage2_49</Link>
                     </li>
+
                     <li className='menu-item'>
-                      <Link to='/quiz1/static3_xx'>TourStaticPage3_xx</Link>
+                      <Link href='/exams/midterm/p3_49'>P3_NodePage_49</Link>
                     </li>
+
                     <li className='menu-item'>
-                      <Link to='/quiz1/node_xx'>TourNodePage_xx</Link>
+                      <Link href='/exams/midterm/p4_49'>P4_SupaPage_49</Link>
                     </li>
                   </ul>
                 </div>
               </li>
 
               <li className='menu-item'>
-                <Link to='#'>Contact</Link>
+                <Link href='#'>Contact</Link>
               </li>
             </ul>
             <Link
-              to='#'
+              href='#'
               id='hamburger-icon'
-              className='mobile-toggler'
+              className='mobile-hrefggler'
               aria-label='Mobile Menu'
             >
               <i className='fas fa-bars'></i>
@@ -186,31 +191,31 @@ const Navbar_xx = () => {
           <div id='mobile-menu' className='mobile-menu hidden slideInDown'>
             <ul>
               <li className='menu-item'>
-                <Link to='#' className='active'>
+                <Link href='#' className='active'>
                   Home
                 </Link>
               </li>
 
               {/* <li className='menu-item mega-menu'>
-                <Link to='#'>Mega menu +</Link>
+                <Link href='#'>Mega menu +</Link>
                 <div className='mega-menu-wrapper'>
                   <div className='mega-menu-col'>
                     <h5>Menu block 1</h5>
                     <ul className='mega-sub-menu'>
                       <li>
-                        <Link to='#'>Menu block item 1</Link>
+                        <Link href='#'>Menu block item 1</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 2</Link>
+                        <Link href='#'>Menu block item 2</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 3</Link>
+                        <Link href='#'>Menu block item 3</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 4</Link>
+                        <Link href='#'>Menu block item 4</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 5</Link>
+                        <Link href='#'>Menu block item 5</Link>
                       </li>
                     </ul>
                   </div>
@@ -218,19 +223,19 @@ const Navbar_xx = () => {
                     <h5>Menu block 2</h5>
                     <ul className='mega-sub-menu'>
                       <li>
-                        <Link to='#'>Menu block item 1</Link>
+                        <Link href='#'>Menu block item 1</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 2</Link>
+                        <Link href='#'>Menu block item 2</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 3</Link>
+                        <Link href='#'>Menu block item 3</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 4</Link>
+                        <Link href='#'>Menu block item 4</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 5</Link>
+                        <Link href='#'>Menu block item 5</Link>
                       </li>
                     </ul>
                   </div>
@@ -238,19 +243,19 @@ const Navbar_xx = () => {
                     <h5>Menu block 3</h5>
                     <ul className='mega-sub-menu'>
                       <li>
-                        <Link to='#'>Menu block item 1</Link>
+                        <Link href='#'>Menu block item 1</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 2</Link>
+                        <Link href='#'>Menu block item 2</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 3</Link>
+                        <Link href='#'>Menu block item 3</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 4</Link>
+                        <Link href='#'>Menu block item 4</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 5</Link>
+                        <Link href='#'>Menu block item 5</Link>
                       </li>
                     </ul>
                   </div>
@@ -258,19 +263,19 @@ const Navbar_xx = () => {
                     <h5>Menu block 4</h5>
                     <ul className='mega-sub-menu'>
                       <li>
-                        <Link to='#'>Menu block item 1</Link>
+                        <Link href='#'>Menu block item 1</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 2</Link>
+                        <Link href='#'>Menu block item 2</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 3</Link>
+                        <Link href='#'>Menu block item 3</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 4</Link>
+                        <Link href='#'>Menu block item 4</Link>
                       </li>
                       <li>
-                        <Link to='#'>Menu block item 5</Link>
+                        <Link href='#'>Menu block item 5</Link>
                       </li>
                     </ul>
                   </div>
@@ -278,44 +283,44 @@ const Navbar_xx = () => {
               </li> */}
 
               <li className='menu-item dropdown'>
-                <Link to='#'>Services +</Link>
+                <Link href='#'>Services +</Link>
                 <div className='sub-menu-wrapper'>
                   <ul className='sub-menu'>
                     <li className='menu-item'>
-                      <Link to='#'>Service 1</Link>
+                      <Link href='#'>Service 1</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link to='#'>Service 2</Link>
+                      <Link href='#'>Service 2</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link to='#'>Service 3</Link>
+                      <Link href='#'>Service 3</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link to='#'>Service 4</Link>
+                      <Link href='#'>Service 4</Link>
                     </li>
                   </ul>
                 </div>
               </li>
 
               <li className='menu-item dropdown'>
-                <Link to='#'>Tutorials +</Link>
+                <Link href='#'>Tuhrefrials +</Link>
                 <div className='sub-menu-wrapper slideInUp'>
                   <ul className='sub-menu'>
                     <li className='menu-item'>
-                      <Link to='/tutorials/t11_xx'>
-                        T11_ErrorExamplePage_xx
+                      <Link href='/tuhrefrials/t11_49'>
+                        T11_ErrorExamplePage_49
                       </Link>
                     </li>
                     <li className='menu-item'>
-                      <Link to='/tutorials/t12_xx'>
-                        T12_UseStateBasicsPage_xx
+                      <Link href='/tuhrefrials/t12_49'>
+                        T12_UseStateBasicsPage_49
                       </Link>
                     </li>
                   </ul>
                 </div>
               </li>
               <li className='menu-item'>
-                <Link to='#'>Contact</Link>
+                <Link href='#'>Contact</Link>
               </li>
             </ul>
           </div>
@@ -325,4 +330,4 @@ const Navbar_xx = () => {
   );
 };
 
-export default Navbar_xx;
+export default Navbar_49;

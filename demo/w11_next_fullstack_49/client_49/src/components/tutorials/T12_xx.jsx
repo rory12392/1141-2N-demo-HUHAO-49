@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Wrapper from '../../assets/wrappers/Tutorials_xx';
+import Wrapper from '../../assets/wrappers/Tutorials_49';
 
 const T12_xx = () => {
   // let count = 0
