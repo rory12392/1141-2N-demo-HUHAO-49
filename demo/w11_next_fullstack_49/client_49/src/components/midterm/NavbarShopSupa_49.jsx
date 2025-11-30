@@ -2,7 +2,7 @@ import Wrapper from '../../assets/wrappers/midterm/Shop_49';
 // import { Link } from 'react-router-dom';
 import Link from 'next/link';
 
-const NavbarShop_49 = () => {
+const NavbarShopSupa_49 = () => {
     return (
     <Wrapper>
       <div className='header'>
@@ -56,4 +56,4 @@ const NavbarShop_49 = () => {
     </Wrapper>
   );
 };
-export default NavbarShop_49;
+export default NavbarShopSupa_49;
